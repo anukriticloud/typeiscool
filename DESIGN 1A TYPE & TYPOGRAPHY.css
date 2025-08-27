@@ -1,0 +1,159 @@
+
+@font-face {	
+.space-grotesk-<uniquifier> {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+
+}
+	
+}
+
+.no-bullets {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+
+body {
+  font-family: Helvetica sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.1;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+header { font-family: "Space Grotesk", monospace;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.1;}
+
+p { font-family: "Space Grotesk", monospace;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.1;}
+
+.h1 {
+  font-family: Helvetica sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 1.1;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container {
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  overflow-x: hidden !important;
+  /*overflow-y: hidden !important;*/
+  width: 100vw;
+  height: 100vh;
+  xtouch-action: none;
+    ul, ol {
+  margin-left: 10px;
+  padding-left: 10px;
+  list-style-position: outside;
+  line-height: 1.;
+  overflow: visible;
+}
+
+}
+
+.left {
+  width: 50vw;
+}
+
+.left + .home {
+  background: white;
+}
+
+.right {
+  width: 50vw;
+}
+
+.home {
+  padding: 10px;
+}
+
+.left,
+.right {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  height: 100vh;
+}
+
+.nav {
+  position: fixed;
+  text-align: center;
+  right: 10px;
+  width: 24px;
+  padding-bottom: 2px;
+  border: 1px solid black;
+  border-top: none;
+  background: white;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  z-index: 10;
+}
+
+a:hover {
+  color: blue;
+}
+
+.row {
+  width: auto;
+  border-bottom: 1px solid black;
+  padding: 10px;
+  border-right: 1px solid black;
+  display: grid;
+  grid-template-columns: 36px auto;
+}
+
+.section {
+  padding: 10px 10px 10px 10px;
+  border-top: .15px solid black;
+}
+
+#syllabus {
+  border-top: 0;
+}
+
+/* img */
+img {
+  width: 100%;
+}
+
+/* COLOR */
+.blank {
+  color: white !important;
+}
+
+.today,
+#more {
+  background: yellow;
+}
+
+/*.demo {
+  color: orange;
+}
+.demo-link:hover {
+  color: orange;*/
+}
+
+.pres {
+  color: green;
+}
+.pres-l
+
