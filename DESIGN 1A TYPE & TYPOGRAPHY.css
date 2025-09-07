@@ -109,6 +109,10 @@ a {
 }
 
 a:link {
+  text-decoration: underline;
+}
+
+a:hover {
   color: blue;
 }
 
